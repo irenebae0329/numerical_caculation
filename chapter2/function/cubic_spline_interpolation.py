@@ -47,4 +47,4 @@ def main(x,x_list,y_list):
     section_list,s_list=cubic_spline_interpolation(x_list,y_list)
     return interpolation_function(x,section_list,s_list)
 #print(main(27.8))
-print(main(1.1,[0.2,0.4,0.6,0.8,1.0],[0.98,0.92,0.81,0.64,0.38]))
+#print(main(1.1,[0.2,0.4,0.6,0.8,1.0],[0.98,0.92,0.81,0.64,0.38]))
