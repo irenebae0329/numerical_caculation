@@ -20,7 +20,6 @@ def Lagrange_interpolation(x_list,y_list):
     param_list=return_param_list(n,x_list)
     expression=sum(list(map(lambda x,y:x*y,param_list,y_list)))
     return expression
-    
 if __name__=='__main__':
     expression1=Lagrange_interpolation([1,-1],[0,-3])
     expression2=Lagrange_interpolation([1,-1,2],[0,-3,4])

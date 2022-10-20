@@ -38,6 +38,6 @@ if __name__=='__main__':
     if args.mult:
         plot_i()
     elif args.cubic:
-        plot_i()
+        plot_c()
 
     
